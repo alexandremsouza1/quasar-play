@@ -3,4 +3,5 @@
  * is picked up by the build system if BOTH conditions are met:
  *  - You are building for production
  *  - quasar.conf > pwa > workboxPluginMode is set to "InjectManifest"
+ * test for pull request
  */
