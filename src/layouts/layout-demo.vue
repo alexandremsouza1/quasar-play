@@ -5,7 +5,7 @@
         <q-btn flat round dense icon="menu" @click="left = !left" aria-label="Toggle menu on left side" />
         <q-toolbar-title>
           Header
-          <span slot="subtitle">Header Subtitle</span>
+          <span slot="subtitle">Header Subtitle Teste</span>
         </q-toolbar-title>
         <q-btn flat dense v-if="!$q.platform.within.iframe" class="q-mr-sm" label="Go to Showcase" @click="$router.replace('/showcase')" />
         <q-btn flat round dense icon="menu" @click="right = !right" aria-label="Toggle menu on right side" />
